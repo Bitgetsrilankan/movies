@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '24870301'))
 API_HASH = environ.get('API_HASH', '5bcc6d5a90ad19da0989d635a36942af')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7221872059:AAGYZKhnkss0ta6h5j0vf_N6FPcPws8xv9c')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7221872059:AAH3JYURWzgeuIq2s2XqRh-evLVSsfnvWEg')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1481322134').split()]
@@ -25,7 +25,7 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/LKFilm_Group')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002450577884').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://pawanivimasha8:20030928@autofilter.jdtmx.mongodb.net/?retryWrites=true&w=majority&appName=AutoFilter")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://pissuhadenawa15:20030928@cloners.vtvwi.mongodb.net/?retryWrites=true&w=majority&appName=cloners")
 DATABASE_NAME = environ.get('DATABASE_NAME', "autofilter")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
